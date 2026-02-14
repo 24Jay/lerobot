@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # 初始化micromamba shell
 eval "$(micromamba shell hook --shell bash)"
 

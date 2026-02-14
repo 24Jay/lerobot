@@ -22,4 +22,5 @@ python src/lerobot/scripts/lerobot_train.py \
 	--job_name=${policy}_so101_test \
 	--policy.device=${device} \
 	--wandb.enable=false \
-	--policy.push_to_hub=false
+	--policy.push_to_hub=false \
+	--save_freq=1000
